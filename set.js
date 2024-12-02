@@ -24,13 +24,13 @@ MODE: process.env.MODE || "public",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "", // Only 1 owner Number Here, others Add to sudo numbers...
 OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇", // Input Yours custom...(Maintain font for Flow)
 PREFIX: process.env.PREFIX || ",",
-ANTIDELETE: process.env.ANTIDELETE || "false",
-ANTICALL: process.env.ANTICALL || "false",
+ANTIDELETE: process.env.ANTIDELETE || "true",
+ANTICALL: process.env.ANTICALL || "true",
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 BOT_NAME: process.env.BOT_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃", // Input Yours custom...(Maintain font for Flow)
 BOT_PIC: process.env.BOT_PIC || "https://files.giftedtech.my.id/file/gifted-md.jpg", // You can Replace with yours...
-AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
+AUTO_AUDIO: process.env.AUTO_AUDIO || "true",
 WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false",
